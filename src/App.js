@@ -6,6 +6,8 @@ import { Provider } from "react-redux";
 import Battle from "./screens/Battle";
 import store from "./store";
 
+import soundBackground from "./assets/sound_background.mp3";
+
 const theme = createTheme({
   palette: {
     background: {
@@ -15,6 +17,8 @@ const theme = createTheme({
 });
 
 const App = () => {
+  new Audio(soundBackground).play();
+
   return (
     <>
       <Provider store={store}>
