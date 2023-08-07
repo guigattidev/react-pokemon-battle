@@ -2,4 +2,4 @@
 
 Project inspired in the pokemon game
 
-<img alt="Pokemon React" src="./src/assets/pokemon_react.gif" />
+![App](https://i.imgur.com/0osvBbm.png)
